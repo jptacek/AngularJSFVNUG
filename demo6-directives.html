@@ -19,7 +19,7 @@
         </tr>
         <tr data-ng-repeat="element in periodic.elements | filter:filterSolids">
             <td><a href="http://en.wikipedia.org/wiki/{{element.name}}" Title="Wiki on {{element.name}}">{{element.name| truncate:3}}</a></td>
-            <td>{{element.atomicNumber}} - {{$index}} {{$</td>
+            <td>{{element.atomicNumber}} </td>
             <td>{{element.atomicWeight}}</td>
             <td>{{protons(element)}}</td>
             <td>{{electrons(element)}}</td>
