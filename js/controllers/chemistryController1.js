@@ -3,4 +3,4 @@ chemistryApp.controller('chemistryController',
         $scope.elementName = 'Hydrogen';
         $scope.elementAtomicNumber = 1;
     }
-)
+);
