@@ -1,7 +1,7 @@
 'use strict';
 
 chemistryApp.controller('chemistryController5',
-    function chemistryController($scope, $log)
+    function chemistryController5($scope, $log)
     {
         $scope.periodic = perioicData;
 

@@ -1,7 +1,7 @@
 'use strict';
 
-chemistryApp.controller('chemistryController6',
-    function chemistryController6($scope)
+chemistryApp.controller('chemistryController8',
+    function chemistryController8($scope, $log)
     {
         $scope.periodic = perioicData;
         $scope.showTable = false;
@@ -18,10 +18,21 @@ chemistryApp.controller('chemistryController6',
         $scope.neutrons = function(element) {
             return Math.ceil(element.atomicWeight) -element.atomicNumber ;
         }
-
+;
         $scope.filterSolids = function(element) {
             if (element.phase == 'Solid' && element.melting >500) {
                 return element;
             }
-        }
+        };
+
+        $scope.newElementName ;
+        $scope.newElementAtomicNumber;
+
+        $scope.addElement = function() {
+            $log.info('new item');
+            $scope.periodic.elements.push({name: $scope.newElementName, atomicNumber: $scope.newElementAtomicNumber});
+            $scope.newElementName='' ;
+            $scope.newElementAtomicNumber='';
+
+        };
     });

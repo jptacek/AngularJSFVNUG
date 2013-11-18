@@ -1,7 +1,7 @@
 'use strict';
 
 chemistryApp.controller('chemistryController7',
-    function chemistryController3($scope, $log, chemistryData, chemistryDataP)
+    function chemistryController7($scope, $log, chemistryData, chemistryDataP)
     {
 
 
