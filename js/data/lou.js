@@ -4,7 +4,7 @@ var louAlbums = {
             "album": "Lou Reed",
             "artist": "Lou Reed",
             "releaseDate": 6/1/1972,
-            "image": "http://upload.wikimedia.org/wikipedia/en/8/88/Lour72.jpg",
+            "image": "xhttp://upload.wikimedia.org/wikipedia/en/8/88/Lour72.jpg",
             "label": "RCA"
         },
         {
